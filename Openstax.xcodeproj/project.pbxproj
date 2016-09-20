@@ -7,23 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C6E72BA1D760C8100D1EDC3 /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */; };
+		4C6E72BC1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */; };
+		4C6E72C01D76173B00D1EDC3 /* icon_bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E72BF1D76173B00D1EDC3 /* icon_bookmark.png */; };
+		4C6E72C21D7617B300D1EDC3 /* icon_bookmark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E72C11D7617B300D1EDC3 /* icon_bookmark2.png */; };
+		4C6E72C41D76181C00D1EDC3 /* Booking Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E72C31D76181C00D1EDC3 /* Booking Filled-50.png */; };
+		4C6E72C61D76182400D1EDC3 /* Generic Book File Type Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E72C51D76182400D1EDC3 /* Generic Book File Type Filled-50.png */; };
+		4CC60BB51CADA3E700B34304 /* icon_book.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BB41CADA3E700B34304 /* icon_book.png */; };
+		4CC60BB71CADA3EC00B34304 /* icon_pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BB61CADA3EC00B34304 /* icon_pencil.png */; };
+		4CC60BB91CADA42900B34304 /* icon_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BB81CADA42900B34304 /* icon_question.png */; };
+		4CC60BBB1CADA5B100B34304 /* rice_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BBA1CADA5B100B34304 /* rice_logo.jpg */; };
+		4CC60BBD1CADA5E200B34304 /* hewlett_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BBC1CADA5E200B34304 /* hewlett_logo.jpg */; };
+		4CC60BBF1CADA60D00B34304 /* gates_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BBE1CADA60D00B34304 /* gates_logo.jpg */; };
+		4CC60BC11CADA65200B34304 /* 20million_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BC01CADA65200B34304 /* 20million_logo.png */; };
+		4CC60BC31CADA67B00B34304 /* ljaf_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CC60BC21CADA67B00B34304 /* ljaf_logo.gif */; };
+		4CE42A291C5BD2FE008BE4F7 /* chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE42A281C5BD2FE008BE4F7 /* chemistry.png */; };
+		4CE42A2B1C5BD31B008BE4F7 /* psychology.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE42A2A1C5BD31B008BE4F7 /* psychology.png */; };
+		4CE42A2D1C5BD3C9008BE4F7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE42A2C1C5BD3C9008BE4F7 /* AboutViewController.swift */; };
 		4CF2A4931C5ABC0500C56703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2A4921C5ABC0500C56703 /* AppDelegate.swift */; };
-		4CF2A4951C5ABC0500C56703 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2A4941C5ABC0500C56703 /* FirstViewController.swift */; };
-		4CF2A4971C5ABC0500C56703 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2A4961C5ABC0500C56703 /* SecondViewController.swift */; };
+		4CF2A4971C5ABC0500C56703 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2A4961C5ABC0500C56703 /* WebViewController.swift */; };
 		4CF2A49A1C5ABC0500C56703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4981C5ABC0500C56703 /* Main.storyboard */; };
 		4CF2A49C1C5ABC0500C56703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A49B1C5ABC0500C56703 /* Assets.xcassets */; };
 		4CF2A49F1C5ABC0500C56703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A49D1C5ABC0500C56703 /* LaunchScreen.storyboard */; };
+		4CF2A4AE1C5ABDAF00C56703 /* algebra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4A71C5ABDAF00C56703 /* algebra.png */; };
+		4CF2A4AF1C5ABDAF00C56703 /* biology.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4A81C5ABDAF00C56703 /* biology.png */; };
+		4CF2A4B01C5ABDAF00C56703 /* economics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4A91C5ABDAF00C56703 /* economics.png */; };
+		4CF2A4B11C5ABDAF00C56703 /* physics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AA1C5ABDAF00C56703 /* physics.png */; };
+		4CF2A4B21C5ABDAF00C56703 /* sociology.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AB1C5ABDAF00C56703 /* sociology.png */; };
+		4CF2A4B31C5ABDAF00C56703 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AC1C5ABDAF00C56703 /* statistics.png */; };
+		4CF2A4B41C5ABDAF00C56703 /* us_history.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AD1C5ABDAF00C56703 /* us_history.png */; };
+		4CF2A4B61C5ABE6D00C56703 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4B51C5ABE6D00C56703 /* logo.png */; };
+		4CFF92A41CAC3AE6009A59F9 /* TextbookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */; };
+		4CFF92A61CAC3D82009A59F9 /* TextbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */; };
+		4CFF92AA1CAC485D009A59F9 /* anatomy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92A91CAC485D009A59F9 /* anatomy.png */; };
+		4CFF92AC1CAC4870009A59F9 /* precalculus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92AB1CAC4870009A59F9 /* precalculus.png */; };
+		4CFF92AE1CAC4881009A59F9 /* algebra_trig.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92AD1CAC4881009A59F9 /* algebra_trig.png */; };
+		4CFF92B21CAC48A7009A59F9 /* calculus_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92AF1CAC48A7009A59F9 /* calculus_1.jpg */; };
+		4CFF92B31CAC48A7009A59F9 /* calculus_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B01CAC48A7009A59F9 /* calculus_2.jpg */; };
+		4CFF92B41CAC48A7009A59F9 /* calculus_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B11CAC48A7009A59F9 /* calculus_3.jpg */; };
+		4CFF92B61CAC48B8009A59F9 /* physics_ap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B51CAC48B8009A59F9 /* physics_ap.png */; };
+		4CFF92BB1CAC48EB009A59F9 /* microecon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B71CAC48EB009A59F9 /* microecon.png */; };
+		4CFF92BC1CAC48EB009A59F9 /* microecon_ap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B81CAC48EB009A59F9 /* microecon_ap.png */; };
+		4CFF92BD1CAC48EB009A59F9 /* macroecon_ap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92B91CAC48EB009A59F9 /* macroecon_ap.png */; };
+		4CFF92BE1CAC48EB009A59F9 /* macroecon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92BA1CAC48EB009A59F9 /* macroecon.png */; };
+		4CFF92C01CAC48FD009A59F9 /* biology_concepts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92BF1CAC48FD009A59F9 /* biology_concepts.png */; };
+		4CFF92C21CAC4910009A59F9 /* prealgebra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92C11CAC4910009A59F9 /* prealgebra.jpeg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4CB204AE1C5AC5C7009FF8E2 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		4C6E72BF1D76173B00D1EDC3 /* icon_bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bookmark.png; sourceTree = "<group>"; };
+		4C6E72C11D7617B300D1EDC3 /* icon_bookmark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bookmark2.png; sourceTree = "<group>"; };
+		4C6E72C31D76181C00D1EDC3 /* Booking Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Booking Filled-50.png"; sourceTree = "<group>"; };
+		4C6E72C51D76182400D1EDC3 /* Generic Book File Type Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Generic Book File Type Filled-50.png"; sourceTree = "<group>"; };
+		4CC60BB41CADA3E700B34304 /* icon_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_book.png; sourceTree = "<group>"; };
+		4CC60BB61CADA3EC00B34304 /* icon_pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pencil.png; sourceTree = "<group>"; };
+		4CC60BB81CADA42900B34304 /* icon_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_question.png; sourceTree = "<group>"; };
+		4CC60BBA1CADA5B100B34304 /* rice_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rice_logo.jpg; sourceTree = "<group>"; };
+		4CC60BBC1CADA5E200B34304 /* hewlett_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hewlett_logo.jpg; sourceTree = "<group>"; };
+		4CC60BBE1CADA60D00B34304 /* gates_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gates_logo.jpg; sourceTree = "<group>"; };
+		4CC60BC01CADA65200B34304 /* 20million_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20million_logo.png; sourceTree = "<group>"; };
+		4CC60BC21CADA67B00B34304 /* ljaf_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ljaf_logo.gif; sourceTree = "<group>"; };
+		4CE42A281C5BD2FE008BE4F7 /* chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemistry.png; sourceTree = "<group>"; };
+		4CE42A2A1C5BD31B008BE4F7 /* psychology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psychology.png; sourceTree = "<group>"; };
+		4CE42A2C1C5BD3C9008BE4F7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4CF2A48F1C5ABC0500C56703 /* Openstax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Openstax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2A4921C5ABC0500C56703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CF2A4941C5ABC0500C56703 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4CF2A4961C5ABC0500C56703 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4CF2A4961C5ABC0500C56703 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4CF2A4991C5ABC0500C56703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CF2A49B1C5ABC0500C56703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CF2A49E1C5ABC0500C56703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF2A4A01C5ABC0500C56703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF2A4A71C5ABDAF00C56703 /* algebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = algebra.png; sourceTree = "<group>"; };
+		4CF2A4A81C5ABDAF00C56703 /* biology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biology.png; sourceTree = "<group>"; };
+		4CF2A4A91C5ABDAF00C56703 /* economics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = economics.png; sourceTree = "<group>"; };
+		4CF2A4AA1C5ABDAF00C56703 /* physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = physics.png; sourceTree = "<group>"; };
+		4CF2A4AB1C5ABDAF00C56703 /* sociology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sociology.png; sourceTree = "<group>"; };
+		4CF2A4AC1C5ABDAF00C56703 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistics.png; sourceTree = "<group>"; };
+		4CF2A4AD1C5ABDAF00C56703 /* us_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us_history.png; sourceTree = "<group>"; };
+		4CF2A4B51C5ABE6D00C56703 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextbookCollectionViewController.swift; sourceTree = "<group>"; };
+		4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextbookCollectionViewCell.swift; sourceTree = "<group>"; };
+		4CFF92A91CAC485D009A59F9 /* anatomy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anatomy.png; sourceTree = "<group>"; };
+		4CFF92AB1CAC4870009A59F9 /* precalculus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = precalculus.png; sourceTree = "<group>"; };
+		4CFF92AD1CAC4881009A59F9 /* algebra_trig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = algebra_trig.png; sourceTree = "<group>"; };
+		4CFF92AF1CAC48A7009A59F9 /* calculus_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculus_1.jpg; sourceTree = "<group>"; };
+		4CFF92B01CAC48A7009A59F9 /* calculus_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculus_2.jpg; sourceTree = "<group>"; };
+		4CFF92B11CAC48A7009A59F9 /* calculus_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculus_3.jpg; sourceTree = "<group>"; };
+		4CFF92B51CAC48B8009A59F9 /* physics_ap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = physics_ap.png; sourceTree = "<group>"; };
+		4CFF92B71CAC48EB009A59F9 /* microecon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microecon.png; sourceTree = "<group>"; };
+		4CFF92B81CAC48EB009A59F9 /* microecon_ap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microecon_ap.png; sourceTree = "<group>"; };
+		4CFF92B91CAC48EB009A59F9 /* macroecon_ap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macroecon_ap.png; sourceTree = "<group>"; };
+		4CFF92BA1CAC48EB009A59F9 /* macroecon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macroecon.png; sourceTree = "<group>"; };
+		4CFF92BF1CAC48FD009A59F9 /* biology_concepts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biology_concepts.png; sourceTree = "<group>"; };
+		4CFF92C11CAC4910009A59F9 /* prealgebra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prealgebra.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +148,61 @@
 			isa = PBXGroup;
 			children = (
 				4CF2A4921C5ABC0500C56703 /* AppDelegate.swift */,
-				4CF2A4941C5ABC0500C56703 /* FirstViewController.swift */,
-				4CF2A4961C5ABC0500C56703 /* SecondViewController.swift */,
+				4CF2A4961C5ABC0500C56703 /* WebViewController.swift */,
+				4CE42A2C1C5BD3C9008BE4F7 /* AboutViewController.swift */,
 				4CF2A4981C5ABC0500C56703 /* Main.storyboard */,
+				4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */,
+				4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */,
+				4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */,
+				4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */,
 				4CF2A49B1C5ABC0500C56703 /* Assets.xcassets */,
 				4CF2A49D1C5ABC0500C56703 /* LaunchScreen.storyboard */,
 				4CF2A4A01C5ABC0500C56703 /* Info.plist */,
+				4CF2A4B51C5ABE6D00C56703 /* logo.png */,
+				4C6E72C31D76181C00D1EDC3 /* Booking Filled-50.png */,
+				4C6E72C51D76182400D1EDC3 /* Generic Book File Type Filled-50.png */,
+				4CC60BB41CADA3E700B34304 /* icon_book.png */,
+				4C6E72C11D7617B300D1EDC3 /* icon_bookmark2.png */,
+				4C6E72BF1D76173B00D1EDC3 /* icon_bookmark.png */,
+				4CC60BB61CADA3EC00B34304 /* icon_pencil.png */,
+				4CC60BB81CADA42900B34304 /* icon_question.png */,
+				4CC60BBA1CADA5B100B34304 /* rice_logo.jpg */,
+				4CC60BBC1CADA5E200B34304 /* hewlett_logo.jpg */,
+				4CC60BBE1CADA60D00B34304 /* gates_logo.jpg */,
+				4CC60BC01CADA65200B34304 /* 20million_logo.png */,
+				4CC60BC21CADA67B00B34304 /* ljaf_logo.gif */,
+				4CF2A4A61C5ABD9600C56703 /* BookCovers */,
 			);
 			path = Openstax;
+			sourceTree = "<group>";
+		};
+		4CF2A4A61C5ABD9600C56703 /* BookCovers */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2A4A71C5ABDAF00C56703 /* algebra.png */,
+				4CFF92AD1CAC4881009A59F9 /* algebra_trig.png */,
+				4CFF92A91CAC485D009A59F9 /* anatomy.png */,
+				4CF2A4A81C5ABDAF00C56703 /* biology.png */,
+				4CFF92BF1CAC48FD009A59F9 /* biology_concepts.png */,
+				4CFF92AF1CAC48A7009A59F9 /* calculus_1.jpg */,
+				4CFF92B01CAC48A7009A59F9 /* calculus_2.jpg */,
+				4CFF92B11CAC48A7009A59F9 /* calculus_3.jpg */,
+				4CF2A4A91C5ABDAF00C56703 /* economics.png */,
+				4CFF92B71CAC48EB009A59F9 /* microecon.png */,
+				4CFF92B81CAC48EB009A59F9 /* microecon_ap.png */,
+				4CFF92B91CAC48EB009A59F9 /* macroecon_ap.png */,
+				4CFF92BA1CAC48EB009A59F9 /* macroecon.png */,
+				4CF2A4AA1C5ABDAF00C56703 /* physics.png */,
+				4CFF92B51CAC48B8009A59F9 /* physics_ap.png */,
+				4CFF92C11CAC4910009A59F9 /* prealgebra.jpeg */,
+				4CFF92AB1CAC4870009A59F9 /* precalculus.png */,
+				4CF2A4AB1C5ABDAF00C56703 /* sociology.png */,
+				4CF2A4AC1C5ABDAF00C56703 /* statistics.png */,
+				4CF2A4AD1C5ABDAF00C56703 /* us_history.png */,
+				4CE42A281C5BD2FE008BE4F7 /* chemistry.png */,
+				4CE42A2A1C5BD31B008BE4F7 /* psychology.png */,
+			);
+			name = BookCovers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +215,7 @@
 				4CF2A48B1C5ABC0500C56703 /* Sources */,
 				4CF2A48C1C5ABC0500C56703 /* Frameworks */,
 				4CF2A48D1C5ABC0500C56703 /* Resources */,
+				4CB204AE1C5AC5C7009FF8E2 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -94,11 +233,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Openstax;
 				TargetAttributes = {
 					4CF2A48E1C5ABC0500C56703 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZJZ4ZKDB8V;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -125,9 +266,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC60BBD1CADA5E200B34304 /* hewlett_logo.jpg in Resources */,
+				4CC60BBF1CADA60D00B34304 /* gates_logo.jpg in Resources */,
+				4CE42A2B1C5BD31B008BE4F7 /* psychology.png in Resources */,
+				4CE42A291C5BD2FE008BE4F7 /* chemistry.png in Resources */,
+				4CFF92BB1CAC48EB009A59F9 /* microecon.png in Resources */,
+				4CF2A4B21C5ABDAF00C56703 /* sociology.png in Resources */,
+				4CFF92AA1CAC485D009A59F9 /* anatomy.png in Resources */,
+				4CC60BB71CADA3EC00B34304 /* icon_pencil.png in Resources */,
+				4CFF92AC1CAC4870009A59F9 /* precalculus.png in Resources */,
+				4CFF92C21CAC4910009A59F9 /* prealgebra.jpeg in Resources */,
+				4CF2A4B11C5ABDAF00C56703 /* physics.png in Resources */,
+				4CFF92BE1CAC48EB009A59F9 /* macroecon.png in Resources */,
+				4C6E72C01D76173B00D1EDC3 /* icon_bookmark.png in Resources */,
+				4CFF92AE1CAC4881009A59F9 /* algebra_trig.png in Resources */,
+				4CF2A4B61C5ABE6D00C56703 /* logo.png in Resources */,
+				4CFF92B31CAC48A7009A59F9 /* calculus_2.jpg in Resources */,
+				4CF2A4AE1C5ABDAF00C56703 /* algebra.png in Resources */,
+				4CFF92B41CAC48A7009A59F9 /* calculus_3.jpg in Resources */,
+				4CFF92BC1CAC48EB009A59F9 /* microecon_ap.png in Resources */,
+				4C6E72C61D76182400D1EDC3 /* Generic Book File Type Filled-50.png in Resources */,
+				4CF2A4AF1C5ABDAF00C56703 /* biology.png in Resources */,
+				4CFF92BD1CAC48EB009A59F9 /* macroecon_ap.png in Resources */,
+				4C6E72C41D76181C00D1EDC3 /* Booking Filled-50.png in Resources */,
+				4C6E72C21D7617B300D1EDC3 /* icon_bookmark2.png in Resources */,
+				4CC60BB91CADA42900B34304 /* icon_question.png in Resources */,
+				4CFF92B61CAC48B8009A59F9 /* physics_ap.png in Resources */,
+				4CF2A4B01C5ABDAF00C56703 /* economics.png in Resources */,
+				4CC60BBB1CADA5B100B34304 /* rice_logo.jpg in Resources */,
+				4CC60BC31CADA67B00B34304 /* ljaf_logo.gif in Resources */,
 				4CF2A49F1C5ABC0500C56703 /* LaunchScreen.storyboard in Resources */,
 				4CF2A49C1C5ABC0500C56703 /* Assets.xcassets in Resources */,
+				4CC60BB51CADA3E700B34304 /* icon_book.png in Resources */,
+				4CC60BC11CADA65200B34304 /* 20million_logo.png in Resources */,
 				4CF2A49A1C5ABC0500C56703 /* Main.storyboard in Resources */,
+				4CFF92B21CAC48A7009A59F9 /* calculus_1.jpg in Resources */,
+				4CF2A4B41C5ABDAF00C56703 /* us_history.png in Resources */,
+				4CF2A4B31C5ABDAF00C56703 /* statistics.png in Resources */,
+				4CFF92C01CAC48FD009A59F9 /* biology_concepts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF2A4971C5ABC0500C56703 /* SecondViewController.swift in Sources */,
+				4CF2A4971C5ABC0500C56703 /* WebViewController.swift in Sources */,
+				4CFF92A41CAC3AE6009A59F9 /* TextbookCollectionViewController.swift in Sources */,
 				4CF2A4931C5ABC0500C56703 /* AppDelegate.swift in Sources */,
-				4CF2A4951C5ABC0500C56703 /* FirstViewController.swift in Sources */,
+				4C6E72BA1D760C8100D1EDC3 /* BookmarkTableViewController.swift in Sources */,
+				4C6E72BC1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift in Sources */,
+				4CE42A2D1C5BD3C9008BE4F7 /* AboutViewController.swift in Sources */,
+				4CFF92A61CAC3D82009A59F9 /* TextbookCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZJZ4ZKDB8V;
 				INFOPLIST_FILE = Openstax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.openstax.Openstax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZJZ4ZKDB8V;
 				INFOPLIST_FILE = Openstax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.openstax.Openstax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -290,6 +475,7 @@
 				4CF2A4A51C5ABC0500C56703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
