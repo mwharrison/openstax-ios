@@ -53,13 +53,20 @@ class WebViewController: UIViewController {
             "bookName": (bookInfo?[1])! as String,
             "bookSection": (bookInfo?[0])! as String,
         ]
-        bookmarks.add(bookmark)
+        if bookmarks.contains(bookmark) {
+            let alert = UIAlertController(title: "Bookmark Already Added", message: "", preferredStyle: UIAlertControllerStyle.actionSheet)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }else{
+            bookmarks.add(bookmark)
+            
+            userDefaults.set(bookmarks, forKey: "bookmarks")
+            
+            let alert = UIAlertController(title: "Bookmark Added", message: "", preferredStyle: UIAlertControllerStyle.actionSheet)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
 
-        userDefaults.set(bookmarks, forKey: "bookmarks")
-        
-        let alert = UIAlertController(title: "Bookmark Added", message: "", preferredStyle: UIAlertControllerStyle.actionSheet)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
     }
 
 }

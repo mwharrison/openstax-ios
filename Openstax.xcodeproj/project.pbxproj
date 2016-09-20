@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C262AA41D91E5E100DCD3DD /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C262AA31D91E5E100DCD3DD /* BooksViewController.swift */; };
 		4C6E72BA1D760C8100D1EDC3 /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */; };
 		4C6E72BC1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */; };
 		4C6E72C01D76173B00D1EDC3 /* icon_bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E72BF1D76173B00D1EDC3 /* icon_bookmark.png */; };
@@ -68,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C262AA31D91E5E100DCD3DD /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
 		4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
 		4C6E72BF1D76173B00D1EDC3 /* icon_bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bookmark.png; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				4CE42A2C1C5BD3C9008BE4F7 /* AboutViewController.swift */,
 				4CF2A4981C5ABC0500C56703 /* Main.storyboard */,
 				4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */,
+				4C262AA31D91E5E100DCD3DD /* BooksViewController.swift */,
 				4C6E72B91D760C8000D1EDC3 /* BookmarkTableViewController.swift */,
 				4C6E72BB1D7611CC00D1EDC3 /* BookmarkTableViewCell.swift */,
 				4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */,
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF2A4971C5ABC0500C56703 /* WebViewController.swift in Sources */,
+				4C262AA41D91E5E100DCD3DD /* BooksViewController.swift in Sources */,
 				4CFF92A41CAC3AE6009A59F9 /* TextbookCollectionViewController.swift in Sources */,
 				4CF2A4931C5ABC0500C56703 /* AppDelegate.swift in Sources */,
 				4C6E72BA1D760C8100D1EDC3 /* BookmarkTableViewController.swift in Sources */,

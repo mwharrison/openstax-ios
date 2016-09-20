@@ -9,7 +9,7 @@
         <!--Books-->
         <scene sceneID="i7B-t2-ERR">
             <objects>
-                <navigationController id="OQH-lK-vzu" sceneMemberID="viewController">
+                <navigationController toolbarHidden="NO" id="OQH-lK-vzu" customClass="BooksViewController" customModule="Openstax" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Books" image="Generic Book File Type Filled-50.png" selectedImage="icon_book.png" id="6oN-8l-znn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EsO-yf-adp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -27,8 +27,8 @@
         <scene sceneID="rt7-ro-Pre">
             <objects>
                 <collectionViewController id="atB-rt-54q" customClass="TextbookCollectionViewController" customModule="Openstax" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Wc8-d1-Tod">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Wc8-d1-Tod">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="b9X-u0-tZS">
@@ -87,7 +87,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uwd-ME-PIp" id="dpd-Eb-lSJ">
-                                    <frame key="frameInset" width="375" height="60"/>
+                                    <frame key="frameInset" width="375" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="biology.png" translatesAutoresizingMaskIntoConstraints="NO" id="aG7-kc-JWO">
@@ -174,16 +174,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-2N-fq8">
-                                <frame key="frameInset" minX="109" minY="28" width="156" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minX="109" minY="28" height="112" maxX="110"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rice_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bni-Ia-1bK">
-                                <frame key="frameInset" minX="113" minY="552" width="149" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minX="113" width="149" height="58" maxY="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgm-8R-Dsc">
-                                <frame key="frameInset" minX="20" minY="162" width="335" height="382"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minX="20" minY="162" height="382" maxX="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <string key="text">OpenStax is a nonprofit organization committed to improving student access to quality learning materials. Our free textbooks are developed and peer-reviewed by educators to ensure they are readable, accurate, and meet the scope and sequence requirements of your course. Through our partnerships with companies and foundations committed to reducing costs for students, OpenStax is working to improve access to higher education for all. OpenStax is an initiative of Rice University and is made possible through the generous support of several philanthropic foundations.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -252,6 +252,6 @@
         <image name="rice_logo.jpg" width="270" height="106"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PW0-nT-uZh"/>
+        <segue reference="Oy1-fH-8bc"/>
     </inferredMetricsTieBreakers>
 </document>
