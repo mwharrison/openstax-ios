@@ -10,11 +10,20 @@ import UIKit
 
 class BookmarkTableViewController: UITableViewController {
 
-    var bookmarks : NSArray = []
+    var bookmarks : NSMutableArray = []
+    //var bookmarksLoaded :NSArray = []
     var bookmarkURL : String = ""
     
     func loadBookmarks() {
-        bookmarks = UserDefaults.standard.object(forKey: "bookmarks") as! NSArray
+        bookmarks.removeAllObjects()
+        var bookmarksLoaded = UserDefaults.standard.object(forKey: "bookmarks")
+        // if there are bookmarks, load them into the bookmarks array so we can edit them
+        if(bookmarksLoaded != nil) {
+            for tempBookmark in bookmarksLoaded as! NSArray {
+                bookmarks.add(tempBookmark)
+            }
+            bookmarksLoaded = nil
+        }
         tableView.reloadData()
     }
     
@@ -25,7 +34,7 @@ class BookmarkTableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -67,29 +76,29 @@ class BookmarkTableViewController: UITableViewController {
             cell.bookImage.image = UIImage(named: "calculus_2.jpg")
         }else if(bookmark["bookName"] == "Calculus Volume 3"){
             cell.bookImage.image = UIImage(named: "calculus_3.jpg")
-        }else if(bookmark["bookName"] == "Economics"){
+        }else if(bookmark["bookName"] == "Principles of Economics"){
             cell.bookImage.image = UIImage(named: "economics.png")
-        }else if(bookmark["bookName"] == "Principles of Microeconomics"){
+        }else if(bookmark["bookName"] == "Microeconomics"){
             cell.bookImage.image = UIImage(named: "microecon.png")
-        }else if(bookmark["bookName"] == "Principles of Microeconomics AP"){
+        }else if(bookmark["bookName"]!.hasPrefix("Principles of Microeconomics for AP")){
             cell.bookImage.image = UIImage(named: "microecon_ap.png")
-        }else if(bookmark["bookName"] == "Principles of Macroeconomics"){
+        }else if(bookmark["bookName"] == "Macroeconomics"){
             cell.bookImage.image = UIImage(named: "macroecon.png")
-        }else if(bookmark["bookName"] == "Principles of Macroeconomics AP"){
+        }else if(bookmark["bookName"]!.hasPrefix("Principles of Macroeconomics for AP")){
             cell.bookImage.image = UIImage(named: "macroecon_ap.png")
-        }else if(bookmark["bookName"] == "Physics"){
+        }else if(bookmark["bookName"] == "College Physics"){
             cell.bookImage.image = UIImage(named: "physics.png")
-        }else if(bookmark["bookName"] == "Physics AP"){
+        }else if(bookmark["bookName"]!.hasPrefix("College Physics For AP")){
             cell.bookImage.image = UIImage(named: "physics_ap.png")
         }else if(bookmark["bookName"] == "Prealgebra"){
             cell.bookImage.image = UIImage(named: "prealgebra.jpeg")
         }else if(bookmark["bookName"] == "Precalculus"){
             cell.bookImage.image = UIImage(named: "precalculus.png")
-        }else if(bookmark["bookName"] == "Sociology"){
+        }else if(bookmark["bookName"] == "Introduction to Sociology 2e"){
             cell.bookImage.image = UIImage(named: "sociology.png")
-        }else if(bookmark["bookName"] == "Statistics"){
+        }else if(bookmark["bookName"] == "Introductory Statistics"){
             cell.bookImage.image = UIImage(named: "statistics.png")
-        }else if(bookmark["bookName"] == "US History"){
+        }else if(bookmark["bookName"] == "U.S. History"){
             cell.bookImage.image = UIImage(named: "us_history.png")
         }else if(bookmark["bookName"] == "Chemistry"){
             cell.bookImage.image = UIImage(named: "chemistry.png")
@@ -118,10 +127,11 @@ class BookmarkTableViewController: UITableViewController {
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
-            //bookmarks.removeObject(at: indexPath.row)
-            //UserDefaults.standard.set(bookmarks, forKey: "bookmarks")
-            loadBookmarks()
+            // Delete the row from the data source - clear NSUserDefaults and repopulate
+            bookmarks.removeObject(at: indexPath.row)
+            print(bookmarks)
+            UserDefaults.standard.removeObject(forKey: "bookmarks")
+            UserDefaults.standard.set(bookmarks, forKey: "bookmarks")
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
