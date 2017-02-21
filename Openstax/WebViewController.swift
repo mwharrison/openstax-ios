@@ -19,6 +19,11 @@ class WebViewController: UIViewController {
     
     let userDefaults = UserDefaults.standard
     
+    var ibookLinks: [String:String] = [
+        "Anatomy & Physiology": "https://itunes.apple.com/us/book/anatomy-and-physiology/id899593383?mt=13",
+        "Biology": "https://itunes.apple.com/us/book/biology/id738245107?mt=13",
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +34,9 @@ class WebViewController: UIViewController {
             }
         }
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(addBookmark))
+        let bookmarkButton = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(addBookmark))
+        let iBookButton = UIBarButtonItem(title: "iBook", style: .plain, target: self, action: #selector(openIBook))
+        navigationItem.rightBarButtonItems = [bookmarkButton, iBookButton]
         
         if (bookID != ""){
             let url =  URL(string: "http://cnx.org/contents/\(bookID)/?minimal=true")!
@@ -41,6 +48,19 @@ class WebViewController: UIViewController {
             let requestObj = URLRequest(url: url)
             webViewPortal.loadRequest(requestObj)
         }
+    }
+    
+    func openIBook() {
+        let pageTitle = webViewPortal.stringByEvaluatingJavaScript(from: "document.title")
+        let bookInfo = pageTitle?.components(separatedBy: " - ")
+        let bookName = (bookInfo?[1])! as String
+        
+        let iBookLink = ibookLinks[bookName] ?? "None"
+        if iBookLink != "None" {
+            UIApplication.shared.openURL(URL(string: iBookLink)!)
+        }
+        
+        
     }
     
     func addBookmark() {

@@ -38,6 +38,8 @@
 		4CF2A4B31C5ABDAF00C56703 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AC1C5ABDAF00C56703 /* statistics.png */; };
 		4CF2A4B41C5ABDAF00C56703 /* us_history.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4AD1C5ABDAF00C56703 /* us_history.png */; };
 		4CF2A4B61C5ABE6D00C56703 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2A4B51C5ABE6D00C56703 /* logo.png */; };
+		4CFC41331E368C84000A186C /* bookmark-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC41321E368C84000A186C /* bookmark-icon.png */; };
+		4CFC41351E368C89000A186C /* iBook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC41341E368C89000A186C /* iBook-icon.png */; };
 		4CFF92A41CAC3AE6009A59F9 /* TextbookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */; };
 		4CFF92A61CAC3D82009A59F9 /* TextbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */; };
 		4CFF92AA1CAC485D009A59F9 /* anatomy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF92A91CAC485D009A59F9 /* anatomy.png */; };
@@ -102,6 +104,8 @@
 		4CF2A4AC1C5ABDAF00C56703 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistics.png; sourceTree = "<group>"; };
 		4CF2A4AD1C5ABDAF00C56703 /* us_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us_history.png; sourceTree = "<group>"; };
 		4CF2A4B51C5ABE6D00C56703 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4CFC41321E368C84000A186C /* bookmark-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-icon.png"; sourceTree = "<group>"; };
+		4CFC41341E368C89000A186C /* iBook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iBook-icon.png"; sourceTree = "<group>"; };
 		4CFF92A31CAC3AE6009A59F9 /* TextbookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextbookCollectionViewController.swift; sourceTree = "<group>"; };
 		4CFF92A51CAC3D82009A59F9 /* TextbookCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		4CFF92A91CAC485D009A59F9 /* anatomy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anatomy.png; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				4CF2A49D1C5ABC0500C56703 /* LaunchScreen.storyboard */,
 				4CF2A4A01C5ABC0500C56703 /* Info.plist */,
 				4CF2A4B51C5ABE6D00C56703 /* logo.png */,
+				4CFC41321E368C84000A186C /* bookmark-icon.png */,
+				4CFC41341E368C89000A186C /* iBook-icon.png */,
 				4C6E72C31D76181C00D1EDC3 /* Booking Filled-50.png */,
 				4C6E72C51D76182400D1EDC3 /* Generic Book File Type Filled-50.png */,
 				4CC60BB41CADA3E700B34304 /* icon_book.png */,
@@ -236,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Openstax;
 				TargetAttributes = {
 					4CF2A48E1C5ABC0500C56703 = {
@@ -280,6 +286,7 @@
 				4CFF92AC1CAC4870009A59F9 /* precalculus.png in Resources */,
 				4CFF92C21CAC4910009A59F9 /* prealgebra.jpeg in Resources */,
 				4CF2A4B11C5ABDAF00C56703 /* physics.png in Resources */,
+				4CFC41351E368C89000A186C /* iBook-icon.png in Resources */,
 				4CFF92BE1CAC48EB009A59F9 /* macroecon.png in Resources */,
 				4C6E72C01D76173B00D1EDC3 /* icon_bookmark.png in Resources */,
 				4CFF92AE1CAC4881009A59F9 /* algebra_trig.png in Resources */,
@@ -287,6 +294,7 @@
 				4CFF92B31CAC48A7009A59F9 /* calculus_2.jpg in Resources */,
 				4CF2A4AE1C5ABDAF00C56703 /* algebra.png in Resources */,
 				4CFF92B41CAC48A7009A59F9 /* calculus_3.jpg in Resources */,
+				4CFC41331E368C84000A186C /* bookmark-icon.png in Resources */,
 				4CFF92BC1CAC48EB009A59F9 /* microecon_ap.png in Resources */,
 				4C6E72C61D76182400D1EDC3 /* Generic Book File Type Filled-50.png in Resources */,
 				4CF2A4AF1C5ABDAF00C56703 /* biology.png in Resources */,
@@ -363,8 +371,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -408,8 +418,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
